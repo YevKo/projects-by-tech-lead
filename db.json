@@ -11,8 +11,47 @@
     {
       "name": "Harold Strosin",
       "id": 4
+    },
+    {
+      "name": "Mr. Juana King",
+      "id": 5
     }
   ],
-  "albums": [],
-  "photos": []
+  "projects": [
+    {
+      "userId": 1,
+      "title": "Prohaska LLC",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Oriental Chairs",
+      "id": 16
+    },
+    {
+      "userId": 2,
+      "title": "Rustic Fresh Shop",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "title": "Becker - Lehner",
+      "id": 18
+    },
+    {
+      "userId": 3,
+      "title": "Kris, Moen and Johns",
+      "id": 20
+    },
+    {
+      "userId": 3,
+      "title": "Marks, Hauck and Tromp",
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "title": "Bosco - Lang",
+      "id": 23
+    }
+  ]
 }

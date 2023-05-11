@@ -1,15 +1,21 @@
 import { useState } from 'react';
 import { GoChevronDown, GoChevronLeft } from 'react-icons/go';
+import classNames from 'classnames';
 
-function ExpandablePanel({ header, children }) {
+function ExpandablePanel({ header, children, className }) {
   const [expanded, setExpanded] = useState(false);
+
+  const finalClassNames = classNames(
+    'mb-2 border rounded',
+    className
+  );
 
   const handleClick = () => {
     setExpanded(!expanded);
   };
 
   return (
-    <div className="mb-2 border rounded">
+    <div className={finalClassNames}>
       <div className="flex p-2 justify-between items-center">
         <div className="flex flex-row items-center justify-between">
           {header}
